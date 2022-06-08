@@ -1,23 +1,20 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
+ * main - main function
  *
- * Return: Always 0 (Success)
+ * Return: end program
  */
 int main(void)
 {
-	long int max = 50, num1 = 1, num2 = 2, num3 = 0, i = 0;
+	long int n, num1 = 1, num2 = 1, res;
 
 	printf("%ld", num1);
-	while (i < max)
+	for (n = 1; n < 50; ++n)
 	{
-		num3 = num1 + num2;
-		printf(", %ld", num3);
+		res = num1 + num2;
+		printf(", %ld", res);
 		num1 = num2;
-		num2 = num3;
-
-		i++;
+		num2 = res;
 	}
 	putchar(10);
 
