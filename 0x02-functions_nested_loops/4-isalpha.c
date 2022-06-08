@@ -2,17 +2,16 @@
 #include "main.h"
 
 /**
- * _islower - function
+ * _isalpha - function
  * Return: int
  */
 /**
  * c - parameter
- *
- * Return: int type
+ * Return: int
  */
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (islower(c))
+	if (isalpha(c))
 		return (1);
 	else
 		return (0);
