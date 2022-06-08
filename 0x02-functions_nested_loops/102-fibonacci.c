@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int max = 50, num1 = 1, num2 = 2, num3 = 0;
+	int max = 50, num1 = 1, num2 = 2, num3 = 0, i = 0;
 
 	printf("%d, %d, ", num1, num2);
 	while (i < max)
