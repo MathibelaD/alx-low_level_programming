@@ -3,12 +3,10 @@
 
 /**
  * _islower - function
- * Return: int
- */
-/**
- * c - parameter
  *
- * Return: int type
+ * @c: The character to evaluate
+ * Return: 1 if c is in lowercase
+ * else return 0
  */
 int _islower(int c)
 {
