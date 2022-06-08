@@ -9,7 +9,7 @@ void jack_bauer(void)
 {
 	int hour = 0, hour1, hour2, minute, minute1, minute2;
 
-	while (hour < 23)
+	while (hour <= 23)
 	{
 		hour1 = hour / 10;
 		hour2 = hour % 10;
