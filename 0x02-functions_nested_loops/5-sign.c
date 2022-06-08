@@ -4,7 +4,7 @@
  * print_sign - function
  * Return: int
  */
-int main(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
