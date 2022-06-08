@@ -2,7 +2,11 @@
 
 /**
  * print_sign - function
- * Return: int
+ *
+ * @n: character variable
+ * Return: get 1 if n is positive
+ * get 0 if n is 0
+ * get -1 if n is negative
  */
 int print_sign(int n)
 {
