@@ -15,7 +15,7 @@ void jack_bauer(void)
 		hour2 = hour % 10;
 		minute = 0;
 
-		while (min < 60)
+		while (minute < 60)
 		{
 			minute1 = minute / 10;
 			minute2 = minute % 10;
