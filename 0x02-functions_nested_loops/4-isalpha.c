@@ -3,11 +3,10 @@
 
 /**
  * _isalpha - function
- * Return: int
- */
-/**
- * c - parameter
- * Return: int
+ *
+ * @c: parameter
+ * Return: get 1 if c is an alphabet
+ * otherwise get 0
  */
 int _isalpha(int c)
 {
