@@ -12,14 +12,13 @@ int main(void)
 	int i = 0;
 	int randomizer = 0;
 	int passLength = 8;
-
-	srand((unsigned int)(time(NULL)));
-
 	char num[] = "0123456789";
 	char c_letter[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char letter[] = "abcdefghijklmnopqrstuvwxyz";
 	char symbols[] = "!@#$^&*?";
 	char password[passLength];
+	srand((unsigned int)(time(NULL)));
+
 
 	randomizer = rand() % 4;
 
