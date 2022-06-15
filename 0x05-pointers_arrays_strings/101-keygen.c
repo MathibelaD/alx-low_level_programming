@@ -11,18 +11,17 @@ int main(void)
 {
 	int i = 0;
 	int randomizer = 0;
-	int passLength = 8;
 	char num[] = "0123456789";
 	char c_letter[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char letter[] = "abcdefghijklmnopqrstuvwxyz";
 	char symbols[] = "!@#$^&*?";
-	char password[passLength];
+	char password[8];
 	srand((unsigned int)(time(NULL)));
 
 
 	randomizer = rand() % 4;
 
-	for (i = 0; i < passLength; i++)
+	for (i = 0; i < 8; i++)
 	{
 		if (randomizer == 1)
 		{
