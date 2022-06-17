@@ -20,7 +20,7 @@ char *cap_string(char *str)
 				str[i] = toupper(str[i]);
 			continue;
 		}
-		if (str[i] == ' ' || str[i] == '\t' || str[i] == '.')
+		if (str[i] == ' ' || str[i] == '\t' || str[i] == '.' || str[i] == '?' || str[i] == '!' || str[i] == ',' || str[i] == ';' || str[i] == '"' || str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}')
 		{
 			++i;
 			if (str[i] >= 'a' && str[i] <= 'z')
