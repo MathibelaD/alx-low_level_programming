@@ -1,5 +1,6 @@
 #include "main.h"
 #include <ctype.h>
+#include <string.h>
 
 /**
  * string_toupper - function
@@ -9,9 +10,12 @@
 char *string_toupper(char *a)
 {
 	int i = 0;
+	int len = strlen(a);
 
-	for (i = 0; i < EOF; i++)
+	for (i = 0; i < len; i++)
 	{
 		a[i] = toupper(a[i]);
 	}
+
+	return (a);
 }
