@@ -21,7 +21,7 @@ char *cap_string(char *str)
 			continue;
 		}
 		
-		if (str[i] == ' ' || str[i] == '\t')
+		if (str[i] == ' ' || str[i] == '\t' || str[i] == '.')
 		{
 			++i;
 			if (str[i] >= 'a' && str[i] <= 'z')
