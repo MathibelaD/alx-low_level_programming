@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include "strin.h"
+#include "string.h"
 
 /**
  * *_memset - function
