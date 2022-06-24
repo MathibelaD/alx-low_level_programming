@@ -1,2 +1,2 @@
 #!/bin/bash
-ar -cvq liball.a *.c
+ar rc liball.a *.c
