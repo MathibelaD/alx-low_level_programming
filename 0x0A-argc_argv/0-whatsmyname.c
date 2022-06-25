@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -11,16 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
-
-	char *file_name = argv[0];
-	int len = strlen(file_name);
-	
-	for (i = 0; i < len; i++)
+	if (argc == 1)
 	{
-		_putchar(file_name[i]);
+		printf("%s", argv[0]);
 	}
-	_putchar('\n');
-	
+
+	putchar('\n');
 	return (0);
 }
