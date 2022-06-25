@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		if (!isdigit(*argv[i]))
 		{
-			puts("Error\n");
+			puts("Error");
 			return (1);
 		}
 		sum += atoi(argv[i]);
